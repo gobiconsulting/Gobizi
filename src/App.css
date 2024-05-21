@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+.App {
+  text-align: center;
+}
+
+header {
+  position: relative;
+  width: auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 24px;
+  background: linear-gradient(263.05deg, #68EB44 -23.37%, #0058E6 27.69%, #0058E6 89.78%, #01296B 114.61%);
+  padding: 20px; 
+
+}
+
+.header-left,
+.header-right {
+  flex: 1;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.imgHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100px;
+  height: auto;
+}
+
+.imgHeaderContent {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  right: 0;
+
+}
+
+.colunaLeft{
+  width: 500px;
+}
+.colunaRight{
+  width: 500px;
+}
+
+
+.imgHeaderFooter {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  width: 100px;
+  height: auto;}
+
+.logo-text-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo-text-container img {
+  margin-right: 150px; 
+}
+
+.text-header{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  flex-wrap: wrap; 
+}
+
+.left-column, .right-column {
+  flex: 1;
+  padding: 0 28px;
+  color: #01296B;
+}
+
+.left-column{
+  margin-top: 80px;
+}
+
+ .h2Contact {
+  margin-top: 92px;
+}
+
+.column2 {
+  margin-top: 65px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.textContent {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.column-content {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.column-content p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.column-content button {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.column-content button:hover {
+  background-color: #003dae; 
+}
+
+form {
+ 
+  padding: 20px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background: #E4F1F9;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+button {
+  width: 60%;
+  padding: 15px;
+  background: linear-gradient(263.05deg, #68EB44 -23.37%, #0058E6 27.69%, #0058E6 89.78%, #01296B 114.61%);  
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #007bff;
+}
+
+.card img {
+  width: 50px; 
+  height: 50px;
+  margin-bottom: 10px; 
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.objectives-section {
+  padding: 40px 0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+
+.icon-item {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin: 0 20px; 
+}
+
+.icon-item img {
+  width: 50px; 
+  height: 50px; 
+  margin-bottom: 10px; 
+}
+
+.icon-item p {
+  font-size: 16px;
+  color: #333;
+  text-align: center; 
+  margin: 0; 
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(263.05deg, #68EB44 -23.37%, #0058E6 27.69%, #0058E6 89.78%, #01296B 114.61%);
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
+
+
+
+/* Estilos para cada coluna do footer */
+.footer-left p,
+.footer-center p,
+.footer-right p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-left p {
+  margin-top: 10px; /* Espaçamento superior para o texto na coluna esquerda */
+}
+
+
